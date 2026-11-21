@@ -71,4 +71,6 @@ hold the same link receipts, so `verify.mjs compare` can show the two copies mat
 - **A proof** (the channel page's "Download the proof"): every receipt up to the latest checkpoint, the channel's
   leaf and audit path, and the signed checkpoint with its Rekor entry.
 - **An evidence file** (the channel page's Evidence export): every message of a period in full, signed with the same
-  key, plus a proof. The verifier checks each message's text against its receipt, and that none is missing.
+  key, plus a proof. The verifier checks each message's text against its receipt, and that none is missing. Fields
+  outside the receipt (review decisions, flags, `source`, `guards`, reads) are covered by the signature only: they're
+  Wizard Watcher's statement, not independent proof.
