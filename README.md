@@ -11,7 +11,7 @@ message in the period is missing, then the proof checks below.
 ## Use
 
 1. In Wizard Watcher, open the channel and choose **Download the proof**.
-2. Get the verifier: this repository's `verify.mjs` (https://github.com/wizardwatcher/verifier), or the same file
+2. Get the verifier: this repository's `verify.mjs` (https://github.com/WizardWatcher/verifier), or the same file
    served by the app at `https://app.wizardwatcher.ai/verifier/verify.mjs`.
 3. Run it with Node 20 or later:
 
